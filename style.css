@@ -1,0 +1,19 @@
+body {
+    color: #0d1b2a;
+}
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 180px;
+ }
+  
+ th {
+   width: 180px;
+   text-align: center;
+  }
+
+  #days {
+      background-color: #1768ac;
+      color: white;
+  }

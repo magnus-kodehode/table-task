@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="5">
+            <col span="7" style: visibility: collapse;>
+        </colgroup>
+        <th colspan="9">Time Table</th>
+        <tr style="background-color: #caf0f8;">
+            <td>Day/Period</td>
+            <td>I<br> 9:30-10:20</td>
+            <td>II<br> 10:20-11:10</td>
+            <td>III<br> 11:10-12:00</td>
+            <td>12:00-12:40</td>
+            <td>IV<br> 12:40-1:30</td>
+            <td>V<br> 1:30-2:20</td>
+            <td>VI<br> 2:20-3:10</td>
+            <td>VII<br> 3:10-4:00</td>
+        </tr>
+        <tr>
+            <td id="days">Monday</td> <!--using ID to target the days, in case I want to change the colors in other cells later-->
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="6">Lunch</td>
+            <td>Lab</td>
+            <td>Lab</td>
+            <td>Lab</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <td id="days">Tuesday</td>
+            <td colspan="3">Lab</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <td id="days">Wednesday</td>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">Library</td>
+        </tr>
+        <tr>
+            <td id="days">Thursday</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">Lab</td>
+            <td>Mat</td>
+        </tr>
+        <tr>
+            <td id="days">Friday</td>
+            <td colspan="3">Lab</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <td id="days">Saturday</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td>Sports</td>
+        </tr>
+    </table>
+</body>
+</html>
